@@ -5,8 +5,6 @@
 
 YouTube Link: <br>
 
-gmx_MMPBSA is a new tool based on AMBER's MMPBSA.py aiming to perform end-state free energy calculations with GROMACS files. It works with all GROMACS versions along with AmberTools >=20 and brings improvements in compatibility, versatility, analyses, and parallelization compared to existing programs <br>
-
 ## Command to perform analysis
 ```
 gmx_MMPBSA -O -i mmpbsa.in -cs md_0_100.tpr -ct md_0_100_fit.xtc -ci index.ndx -cg 1 13 -cp topol.top -o FINAL_RESULTS_MMPBSA.dat -eo FINAL_RESULTS_MMPBSA.csv
